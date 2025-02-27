@@ -9,8 +9,8 @@ import cv2
 from folium.raster_layers import ImageOverlay
 import pandas as pd
 import plotly.express as px
-from utils import color_map,value_to_class
 from zona_utm import calcular_utm
+from utils import color_map,value_to_class
 
 st.header('Estudo de caso WebGIS')
 st.write('')
