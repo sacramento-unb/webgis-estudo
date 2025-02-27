@@ -24,7 +24,7 @@ raster_subido = st.sidebar.file_uploader("Selecione o raster (GeoTIFF)", type=["
 # Checagem para saber se o arquivo foi subido
 
 EMBARGO = 'dados/embargos/embargos_ibama.parquet'
-DESMATAMENTO = 'dados/prodes/prodes.parquet'
+DESMATAMENTO = 'dados/mapbiomas/mapbiomas_alertas.parquet'
 TIS = 'dados/tis_poligonais/tis.parquet'
 
 if poligono_subido and raster_subido:
