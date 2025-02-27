@@ -1,16 +1,16 @@
 import streamlit as st
 import geopandas as gpd
-from zona_utm import calcular_utm
 import folium
 from streamlit_folium import folium_static,st_folium
 from rasterio.io import MemoryFile
 from rasterio.mask import mask
 import numpy as np
-from utils import color_map,value_to_class
 import cv2
 from folium.raster_layers import ImageOverlay
 import pandas as pd
 import plotly.express as px
+from utils import color_map,value_to_class
+from zona_utm import calcular_utm
 
 st.header('Estudo de caso WebGIS')
 st.write('')
